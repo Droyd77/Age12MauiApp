@@ -1,24 +1,24 @@
 ﻿namespace Age12MauiApp
 {
-    public partial class App : Application
-    {
-        public App()
-        {
-            InitializeComponent();
+	public partial class App : Application
+	{
+		public App()
+		{
+			InitializeComponent();
 
-            MainPage = new MainPage();
-        }
+			MainPage = new login();
+		}
 
-        protected override Window CreateWindow(IActivationState activationState)
-        {
-            var window = base. CreateWindow(activationState);
+		protected override Window CreateWindow(IActivationState activationState)
+		{
+			var window = base. CreateWindow(activationState);
 
-            window.Width = 400;
-            window.Height = 700;
+			window.Width = 400;
+			window.Height = 700;
 
-            return window;
+			return window;
 
-        }
-    } // fecha classe 
+		}
+	} // fecha classe 
 
 } // fecha namespace

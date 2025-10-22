@@ -4,9 +4,11 @@
              x:Class="Age12MauiApp.protegida"
              Title="protegida">
     <VerticalStackLayout>
+        
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="Sistema de Login"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
+    
 </ContentPage>
