@@ -6,11 +6,10 @@
     
     <VerticalStackLayout VerticalOptions="Center"
                          Spacing="10"
-                         Spacing="10">
+                         Padding="10">
         <Label 
             Text="Sistema de Login"
-            
-            HorizontalOptions="Center" />
+             HorizontalOptions="Center" />
 
         <Label  Text="Usuário" />
         <Entry x:Name="txt_usuario"/>
@@ -19,6 +18,7 @@
         <Entry x:Name="txt_senha" IsPassword="true"/>
 
         <Button Text="Entra"
+                Clicked="Button_Clicked"
                 HorizontalOptions="Center"/>
 
 

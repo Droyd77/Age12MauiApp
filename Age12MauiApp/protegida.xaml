@@ -3,8 +3,25 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Age12MauiApp.protegida"
              Title="protegida">
-    <VerticalStackLayout>
-        
+    
+    <VerticalStackLayout VerticalOptions="Center" 
+                         Padding="10" Spacing="10">
+        <Frame>
+            <VerticalStackLayout>
+                <Label Text="área protegida"
+                        FontSize="Large"
+                       HorizontalTextAlignment="Center" />
+                <Label x:Name="lbl_boasvindas"
+                       HorizontalOptions="Center"/>
+                <Button Text="Desconectar"
+                        Clicked="Button_Clicked"
+                        HorizontalOptions="Center"/>
+
+
+
+            </VerticalStackLayout>
+            
+        </Frame>
         <Label 
             Text="Sistema de Login"
             VerticalOptions="Center" 
